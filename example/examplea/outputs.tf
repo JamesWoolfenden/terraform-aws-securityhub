@@ -1,3 +1,3 @@
 output "account" {
-    value=module.hub.account
+  value = module.hub.account
 }
