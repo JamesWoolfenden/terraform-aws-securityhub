@@ -40,7 +40,6 @@ common_tags = {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
 No requirements.
@@ -48,20 +47,20 @@ No requirements.
 ## Providers
 
 | Name | Version |
-| ---- | ------- |
-| aws  | n/a     |
+|------|---------|
+| aws | n/a |
 
 ## Inputs
 
-| Name        | Description                                        | Type  | Default | Required |
-| ----------- | -------------------------------------------------- | ----- | ------- | :------: |
-| common_tags | This is to help you add tags to your cloud objects | `map` | n/a     |   yes    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
 
 ## Outputs
 
-| Name    | Description |
-| ------- | ----------- |
-| account | n/a         |
+| Name | Description |
+|------|-------------|
+| account | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
