@@ -50,6 +50,16 @@ No requirements.
 |------|---------|
 | aws | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [aws_securityhub_account](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/securityhub_account) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -61,7 +71,6 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | account | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
