@@ -40,16 +40,15 @@ common_tags = {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
 No requirements.
 
 ## Providers
 
-| Name                                             | Version |
-| ------------------------------------------------ | ------- |
-| <a name="provider_aws"></a> [aws](#provider_aws) | n/a     |
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
@@ -57,22 +56,21 @@ No modules.
 
 ## Resources
 
-| Name                                                                                                                               | Type     |
-| ---------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Name | Type |
+|------|------|
 | [aws_securityhub_account.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/securityhub_account) | resource |
 
 ## Inputs
 
-| Name                                                               | Description                                        | Type       | Default | Required |
-| ------------------------------------------------------------------ | -------------------------------------------------- | ---------- | ------- | :------: |
-| <a name="input_common_tags"></a> [common_tags](#input_common_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a     |   yes    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
 
 ## Outputs
 
-| Name                                                     | Description |
-| -------------------------------------------------------- | ----------- |
-| <a name="output_account"></a> [account](#output_account) | n/a         |
-
+| Name | Description |
+|------|-------------|
+| <a name="output_account"></a> [account](#output\_account) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Instructions
